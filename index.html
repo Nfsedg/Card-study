@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./styles/compiler/styles.css">
+</head>
+<body>
+    <main class="main">
+        <div class="main__title">
+            <h3>Cards</h3>
+        </div>
+        <div class="main__card__input">
+            <input type="text" id="input-title" placeholder="Title">
+            <input type="text" id="input-description" placeholder="Description">
+        </div>
+        <div class="main__buttons">
+            <button id="btn" class="card__button">Add</button>
+            <button id="delete" class="card__button">Delete</button>
+        </div>
+        <div>
+            <p id="count"></p>
+        </div>
+    </main>
+    <section class="card__section">
+        <div id="addCard" class="card__container"></div>
+    </section>
+
+    <script src="./card.js"></script>
+    <script src="./template/information.js"></script>
+    <script src="./src/main.js" type="module"></script>
+</body>
+</html>
